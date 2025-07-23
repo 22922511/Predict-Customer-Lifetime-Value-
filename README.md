@@ -5,13 +5,13 @@ Predict Customer Lifetime Value
 ## Customer Lifetime Value (CLV) Prediction from Retail Data
 This project demonstrates how to predict the future value of customers based on their historical retail transaction data. Predicting Customer Lifetime Value is crucial for businesses to optimize marketing efforts, improve customer retention, and maximize profitability.
 
-Overview
+# Overview
 The project uses real-world retail data containing invoice transactions, product details, purchase quantities, prices, timestamps, customer IDs, and country information. The main goal is to estimate how much revenue a customer will generate during their entire relationship with the business.
 
-Features
+# Features
 Data Loading and Cleaning: Handle missing values, convert date fields, and correct data types for analysis.
 
-Feature Engineering:
+#Feature Engineering:
 
 Calculate total spending per transaction.
 
@@ -19,13 +19,13 @@ Extract purchase frequency and recency metrics.
 
 Aggregate features such as total spend, number of purchases, average purchase price, and active months per customer.
 
-Exploratory Data Analysis (EDA):
+# Exploratory Data Analysis (EDA):
 
 Visualize purchase trends and customer behavior.
 
 Analyze distribution of customer spending and frequency.
 
-Modeling:
+# Modeling:
 
 Build and evaluate machine learning models (e.g., regression, gradient boosting) to predict CLV.
 
@@ -61,7 +61,7 @@ Invoice date and time
 
 Customer ID and country
 
-How to Use
+# How to Use
 Clone the repository
 
 Load and preprocess the dataset
